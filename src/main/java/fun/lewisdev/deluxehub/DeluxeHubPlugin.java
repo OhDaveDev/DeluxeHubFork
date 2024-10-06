@@ -44,6 +44,7 @@ public class DeluxeHubPlugin extends JavaPlugin {
         getLogger().log(Level.INFO, "");
         getLogger().log(Level.INFO, "Version: " + getDescription().getVersion());
         getLogger().log(Level.INFO, "Author: ItsLewizzz");
+        getLogger().log(Level.INFO, "Forked by: OhDaveDev");
         getLogger().log(Level.INFO, "");
 
         // Check if using Spigot
