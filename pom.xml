@@ -53,7 +53,7 @@
                                     <include>org.bstats:bstats-bukkit-lite</include>
                                     <include>com.github.BGMP.CommandFramework:command-framework-bukkit</include>
                                     <include>javax.inject:javax.inject</include>
-                                    <include>de.tr7zw:item-nbt-api</include>
+                                    <include>de.tr7zw:item-nbt-api-plugin</include>
                                 </includes>
                             </artifactSet>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
@@ -67,7 +67,7 @@
                                     <shadedPattern>fun.lewisdev.deluxehub.libs.command</shadedPattern>
                                 </relocation>
                                 <relocation>
-                                    <pattern>de.tr7zw.changeme.nbtapi</pattern>
+                                    <pattern>de.tr7zw.nbtapi</pattern>
                                     <shadedPattern>fun.lewisdev.deluxehub.libs.nbt</shadedPattern>
                                 </relocation>
                             </relocations>
@@ -115,7 +115,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.20.4-R0.1-SNAPSHOT</version>
+            <version>1.21-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
